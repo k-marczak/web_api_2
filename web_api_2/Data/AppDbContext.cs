@@ -41,7 +41,7 @@ public class AppDbContext : DbContext
 
             entity.HasData(
                 new ComponentType { Id = 1, Abbreviation = "CPU", Name = "Procesor" },
-                new ComponentType { Id = 2, Abbreviation = "RAM", Name = "Memory" },
+                new ComponentType { Id = 2, Abbreviation = "GPU", Name = "Graphic" },
                 new ComponentType { Id = 3, Abbreviation = "SSD", Name = "Disk" }
             );
         });
@@ -99,10 +99,10 @@ public class AppDbContext : DbContext
 
             entity.HasData(
                 new PCComponent { PCId = 1, ComponentCode = "CPU/000111", Amount = 1 },
-                new PCComponent { PCId = 1, ComponentCode = "GPU/000111", Amount = 1 },
-                new PCComponent { PCId = 1, ComponentCode = "RAM/000111", Amount = 2 },
-                new PCComponent { PCId = 2, ComponentCode = "CPU/000222", Amount = 1 },
-                new PCComponent { PCId = 3, ComponentCode = "RAM/000222", Amount = 1 }
+                new PCComponent { PCId = 1, ComponentCode = "GPU/000222", Amount = 1 },
+                new PCComponent { PCId = 1, ComponentCode = "RAM/000333", Amount = 2 },
+                new PCComponent { PCId = 2, ComponentCode = "CPU/000111", Amount = 1 },
+                new PCComponent { PCId = 3, ComponentCode = "RAM/000333", Amount = 1 }
             );
         });
     }

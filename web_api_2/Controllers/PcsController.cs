@@ -7,7 +7,7 @@ using web_api_2.Models;
 namespace web_api_2.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/pcs")]
 public class PcsController : ControllerBase
 {
     private readonly AppDbContext _context;
