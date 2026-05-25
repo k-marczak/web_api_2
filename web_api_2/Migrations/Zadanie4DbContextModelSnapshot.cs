@@ -10,7 +10,7 @@ using web_api_2.Data;
 
 namespace web_api_2.Migrations
 {
-    [DbContext(typeof(Zadanie4DbContext))]
+    [DbContext(typeof(PCsDbContext))]
     partial class Zadanie4DbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

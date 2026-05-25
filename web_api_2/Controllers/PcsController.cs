@@ -10,9 +10,9 @@ namespace web_api_2.Controllers;
 [Route("api/pcs")]
 public class PcsController : ControllerBase
 {
-    private readonly Zadanie4DbContext _context;
+    private readonly PCsDbContext _context;
 
-    public PcsController(Zadanie4DbContext context)
+    public PcsController(PCsDbContext context)
     {
         _context = context;
     }

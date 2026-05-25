@@ -11,7 +11,7 @@ using web_api_2.Data;
 
 namespace web_api_2.Migrations
 {
-    [DbContext(typeof(Zadanie4DbContext))]
+    [DbContext(typeof(PCsDbContext))]
     [Migration("20260525192213_InitialCreate")]
     partial class InitialCreate
     {

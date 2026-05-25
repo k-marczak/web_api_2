@@ -3,9 +3,9 @@ using web_api_2.Models;
 
 namespace web_api_2.Data;
 
-public class Zadanie4DbContext : DbContext
+public class PCsDbContext : DbContext
 {
-    public Zadanie4DbContext(DbContextOptions<Zadanie4DbContext> options) : base(options)
+    public PCsDbContext(DbContextOptions<PCsDbContext> options) : base(options)
     {
     }
 
